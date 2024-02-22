@@ -7,6 +7,8 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
+// Fetch data from the other API
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
